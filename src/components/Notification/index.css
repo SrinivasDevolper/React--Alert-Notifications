@@ -1,0 +1,44 @@
+.norification {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
+  justify-content: space-between;
+  border: 1px solid #e5e5e5;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.notification-items {
+  display: flex;
+  text-align: left;
+}
+
+.notification-items div {
+  margin-left: 25px;
+}
+
+.notification-items div h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.notification-items div p {
+  color: #6b778d;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.delete {
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .norification {
+    width: 100%;
+  }
+  .delete {
+    font-size: 45px;
+  }
+}
